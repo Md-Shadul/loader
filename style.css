@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: new;
+    src: url(./Heading-Now-Variable.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.loader{
+    background-color: azure;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.loader h1{
+    color: black;
+    font-size: 70px;
+    font-weight: 900;
+}
+.page1{
+    width:100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+   align-items: center;
+   justify-content: start;
+   overflow: hidden;
+}
+
+.page2{
+    width:100%;
+    height: 100vh;
+    background-color: rgb(103, 103, 103);
+}
+h1{
+    font-size: 35vw;
+    color: white;
+    white-space: nowrap;
+    font-family: new;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-stretch: 250%;
+}
+
