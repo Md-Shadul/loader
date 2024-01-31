@@ -34,7 +34,7 @@ tl.to(".loader",{
 
 gsap.to(".page1 h1",{
     transform:"translateX(-70%)",
-    fontWeight:200,
+    fontWeight:150,
     scrollTrigger:{
         trigger:".page1",
         scroller:"body",
